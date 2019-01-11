@@ -18,6 +18,6 @@ if (environment.production) {
 
 //make a call to the browser dynamic function, which would return an instance of the platform object
 //That object has method name bootstrapModule(), so we can call.
-//This function is expectin root module (which we already created "AppModule")
+//This function is expecting root module (which we already created "AppModule")
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));

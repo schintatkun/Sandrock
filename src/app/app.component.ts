@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
   // `,
   //`
   //.div {
-  //  font-style: italic;
+  // font-style: italic;
   //  color: green; 
   // }
   // `]
@@ -22,3 +22,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
 }
+

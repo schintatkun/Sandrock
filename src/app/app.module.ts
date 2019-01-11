@@ -1,7 +1,10 @@
+//becasue we are builing browser based app, so we need broswer module
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+
+//app.component.ts
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -13,6 +16,6 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] //being use at root
 })
 export class AppModule { }
